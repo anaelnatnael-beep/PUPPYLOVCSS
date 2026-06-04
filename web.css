@@ -1,0 +1,99 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+ 
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: black;
+}
+ 
+
+.header {
+    background-color: #0e4b63;
+    padding: 20px;
+    text-align: center;
+}
+ 
+.header h1 {
+    color: white;
+    font-size: 2rem;
+}
+ 
+
+.banner img {
+    width: 100%
+}
+ 
+
+.content {
+    margin: 40px 30px 40px 30px;
+}
+ 
+
+.puppy-trio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    max-width: 900px;
+    
+}
+ 
+.puppy-trio img {
+    width: 33%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+
+}
+ 
+.missing-box {
+    width: 33%;
+    background-color: #f05464;
+    color: black;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 40px 30px;
+    border-radius: 8px;
+    line-height: 1.8;
+}
+ 
+
+.more-heading {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 30px;
+    color: #0e4b63;
+}
+
+.puppy-pair {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+ 
+.puppy-pair img {
+    width: 48%;
+    border-radius: 8px;
+    
+}
+ 
+
+.footer {
+    background-color: #0e4b63;
+    padding: 40px 20px;
+    text-align: center;
+    margin-top: 60px;
+}
+ 
+.footer p {
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
